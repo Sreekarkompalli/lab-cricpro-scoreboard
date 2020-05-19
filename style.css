@@ -1,6 +1,51 @@
 /* Type your code here */
+body {
+	background-image: url("/assets/background-image1.png");
+	background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+.logo {
+	display: flex;
+	justify-content: flex-end;
+}
+p#text {
+ font-weight: 100;
+ color: gray;
+  font-size: medium;
 
-
+}
+.line{
+	padding: 0px;
+margin: 0px ;
+}
+.basic {
+background-color: orangered;
+color: whitesmoke;
+}
+.change{
+	color: blue;
+}
+table th,td{
+	border: 1px black;
+}
+table{
+	background-color: whitesmoke;
+}
+table{
+		border-collapse: collapse;
+}
+	  tr { 
+		border: solid;
+		border-width: 1px 0;
+	  }
+#logo{
+	display: flex;
+	justify-content: right;
+}
+.center {
+justify-content: center;
+}
 /* change the font family and spacing as per your project font */
 .footer{
     display:flex;
@@ -13,4 +58,7 @@
 	font-family: Nunito Sans;
     font-style: normal;
     
+}
+#logo{
+	justify-content: right;
 }
